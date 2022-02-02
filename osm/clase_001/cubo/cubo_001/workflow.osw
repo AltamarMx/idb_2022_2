@@ -1,0 +1,7 @@
+{
+   "created_at" : "20220202T164037Z",
+   "seed_file" : "../cubo_001.osm",
+   "steps" : [],
+   "updated_at" : "20220202T165230Z",
+   "weather_file" : "USA_CO_Golden-NREL.724666_TMY3.epw"
+}
