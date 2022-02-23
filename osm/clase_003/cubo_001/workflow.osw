@@ -1,0 +1,7 @@
+{
+   "created_at" : "20220216T154801Z",
+   "seed_file" : "../cubo_001.osm",
+   "steps" : [],
+   "updated_at" : "20220223T153410Z",
+   "weather_file" : "Temixco_2018CST.epw"
+}
