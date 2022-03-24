@@ -1,0 +1,8 @@
+{
+  "Zone Ideal Loads Supply Air Total Cooling Energy": {
+    "variable_name": "Zone Ideal Loads Supply Air Total Cooling Energy",
+    "reporting_frequency": "Zone Timestep",
+    "key_value": "*",
+    "applicable": true
+  }
+}
