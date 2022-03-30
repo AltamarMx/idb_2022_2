@@ -1,0 +1,8 @@
+{
+  "Surface Outside Face Incident Solar Radiation Rate per Area": {
+    "variable_name": "Surface Outside Face Incident Solar Radiation Rate per Area",
+    "reporting_frequency": "Zone Timestep",
+    "key_value": "*",
+    "applicable": true
+  }
+}
