@@ -8048,7 +8048,7 @@ OS:WeatherFile,
   -99.262,                                !- Longitude {deg}
   -6,                                     !- Time Zone {hr}
   1303.6,                                 !- Elevation {m}
-  file:///C:/Users/gbv/AppData/Local/Temp/OpenStudioApp.Dxb664/resources/files/MEX_MOR_Cuernavaca-Matamoros.Intl.AP.767260_TMYx.epw, !- Url
+  file:///C:/Users/gbv/AppData/Local/Temp/OpenStudioApp.xb6092/resources/files/MEX_MOR_Cuernavaca-Matamoros.Intl.AP.767260_TMYx.epw, !- Url
   E4AE89B6;                               !- Checksum
 
 OS:Construction,
@@ -8118,14 +8118,14 @@ OS:ZoneCapacitanceMultiplier:ResearchSpecial,
   ;                                       !- Carbon Dioxide Capacity Multiplier
 
 OS:Output:Variable,
-  {ee6d3aea-6900-49e6-b8fa-3e01ff6563e8}, !- Handle
+  {5a2374ff-1680-402a-8091-01d6704a4898}, !- Handle
   Output Variable 1,                      !- Name
   *,                                      !- Key Value
   Site Outdoor Air Drybulb Temperature,   !- Variable Name
   timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {a786ace2-bbf2-4a32-875e-8dd93beb1539}, !- Handle
+  {3e049dbc-3529-4f2d-b479-f864d33f82a6}, !- Handle
   Output Variable 2,                      !- Name
   *,                                      !- Key Value
   Zone Mean Air Temperature,              !- Variable Name
