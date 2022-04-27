@@ -8729,7 +8729,7 @@ OS:WeatherFile,
   -99.262,                                !- Longitude {deg}
   -6,                                     !- Time Zone {hr}
   1303.6,                                 !- Elevation {m}
-  file:///C:/Users/gbv/AppData/Local/Temp/OpenStudioApp.U10404/resources/files/MEX_MOR_Cuernavaca-Matamoros.Intl.AP.767260_TMYx.epw, !- Url
+  file:///C:/Users/gbv/AppData/Local/Temp/OpenStudioApp.SF2940/resources/files/MEX_MOR_Cuernavaca-Matamoros.Intl.AP.767260_TMYx.epw, !- Url
   E4AE89B6;                               !- Checksum
 
 OS:RadianceParameters,
@@ -8783,7 +8783,7 @@ OS:ZoneCapacitanceMultiplier:ResearchSpecial,
 OS:Construction,
   {48efd763-34c1-4319-b406-a9c95e17514a}, !- Handle
   ASHRAE 189.1-2009 ExtWall Mass ClimateZone 7, !- Name
-  ,                                       !- Surface Rendering Name
+  {023e37fe-790f-4638-a51f-8a80d07d510f}, !- Surface Rendering Name
   {f599e234-5bef-4b8b-a29e-b0e66ba90d1c}, !- Layer 1
   {86ce4850-8b71-4fc3-8156-58e01dd0d672}, !- Layer 2
   {15233567-5d6a-4edf-a404-3fe317404d70}, !- Layer 3
@@ -8802,7 +8802,7 @@ OS:StandardsInformation:Construction,
 OS:Construction,
   {b3f54b06-4a51-4bc3-888f-24dc1e225703}, !- Handle
   ASHRAE 189.1-2009 ExtWall Mass ClimateZone 8, !- Name
-  ,                                       !- Surface Rendering Name
+  {541a9055-f249-4d06-b8ba-6adbe5fbdec5}, !- Surface Rendering Name
   {f599e234-5bef-4b8b-a29e-b0e66ba90d1c}, !- Layer 1
   {86ce4850-8b71-4fc3-8156-58e01dd0d672}, !- Layer 2
   {15233567-5d6a-4edf-a404-3fe317404d70}, !- Layer 3
@@ -8818,43 +8818,57 @@ OS:StandardsInformation:Construction,
   ,                                       !- Other Perturbable Layer Type
   ASHRAE 189.1-2009;                      !- Construction Standard
 
+OS:Rendering:Color,
+  {023e37fe-790f-4638-a51f-8a80d07d510f}, !- Handle
+  Rendering Color 65,                     !- Name
+  230,                                    !- Rendering Red Value
+  230,                                    !- Rendering Green Value
+  250;                                    !- Rendering Blue Value
+
+OS:Rendering:Color,
+  {541a9055-f249-4d06-b8ba-6adbe5fbdec5}, !- Handle
+  Rendering Color 66,                     !- Name
+  123,                                    !- Rendering Red Value
+  104,                                    !- Rendering Green Value
+  238;                                    !- Rendering Blue Value
+
 OS:Output:Variable,
-  {cb33aec5-dd50-4b03-8bdd-034c6d594910}, !- Handle
+  {50deba5e-2a53-4b2b-a2c2-2d096892af18}, !- Handle
   Output Variable 1,                      !- Name
   *,                                      !- Key Value
   Site Outdoor Air Drybulb Temperature,   !- Variable Name
   timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {e6747d68-a84b-49e2-b132-57a5aeeade76}, !- Handle
+  {75b8e9a3-099a-48a6-a0aa-84ec97d7d91b}, !- Handle
   Output Variable 2,                      !- Name
   *,                                      !- Key Value
   Zone Mean Air Temperature,              !- Variable Name
   timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {cc903c53-2cd8-4432-909e-d88ae96cbf78}, !- Handle
+  {7b8fd412-b431-44b5-8d43-c95bf87d2d0e}, !- Handle
   Output Variable 3,                      !- Name
   *,                                      !- Key Value
   Site Diffuse Solar Radiation Rate per Area, !- Variable Name
   timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {ed78824f-28b0-49d1-9049-d897454c787f}, !- Handle
+  {76805265-7332-4b9d-bc0a-70ff6e390eb5}, !- Handle
   Output Variable 4,                      !- Name
   *,                                      !- Key Value
   Site Direct Solar Radiation Rate per Area, !- Variable Name
   timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {bf5c3331-a792-4835-8df5-f01f7cb0d08e}, !- Handle
+  {43413954-59e0-4f38-9c75-f02226b3f007}, !- Handle
   Output Variable 5,                      !- Name
   *,                                      !- Key Value
   Site Wind Speed,                        !- Variable Name
   timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {6cc889f4-4fde-47a9-9ac9-3ca9f9003766}, !- Handle
+  {5114d300-cd35-403b-bd3d-92c8ca741683}, !- Handle
   Output Variable 6,                      !- Name
   *,                                      !- Key Value
   Site Outdoor Air Relative Humidity,     !- Variable Name

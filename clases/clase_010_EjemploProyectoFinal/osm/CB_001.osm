@@ -8783,7 +8783,7 @@ OS:ZoneCapacitanceMultiplier:ResearchSpecial,
 OS:Construction,
   {48efd763-34c1-4319-b406-a9c95e17514a}, !- Handle
   ASHRAE 189.1-2009 ExtWall Mass ClimateZone 7, !- Name
-  ,                                       !- Surface Rendering Name
+  {023e37fe-790f-4638-a51f-8a80d07d510f}, !- Surface Rendering Name
   {f599e234-5bef-4b8b-a29e-b0e66ba90d1c}, !- Layer 1
   {86ce4850-8b71-4fc3-8156-58e01dd0d672}, !- Layer 2
   {15233567-5d6a-4edf-a404-3fe317404d70}, !- Layer 3
@@ -8802,7 +8802,7 @@ OS:StandardsInformation:Construction,
 OS:Construction,
   {b3f54b06-4a51-4bc3-888f-24dc1e225703}, !- Handle
   ASHRAE 189.1-2009 ExtWall Mass ClimateZone 8, !- Name
-  ,                                       !- Surface Rendering Name
+  {541a9055-f249-4d06-b8ba-6adbe5fbdec5}, !- Surface Rendering Name
   {f599e234-5bef-4b8b-a29e-b0e66ba90d1c}, !- Layer 1
   {86ce4850-8b71-4fc3-8156-58e01dd0d672}, !- Layer 2
   {15233567-5d6a-4edf-a404-3fe317404d70}, !- Layer 3
@@ -8817,4 +8817,18 @@ OS:StandardsInformation:Construction,
   ,                                       !- Perturbable Layer Type
   ,                                       !- Other Perturbable Layer Type
   ASHRAE 189.1-2009;                      !- Construction Standard
+
+OS:Rendering:Color,
+  {023e37fe-790f-4638-a51f-8a80d07d510f}, !- Handle
+  Rendering Color 65,                     !- Name
+  230,                                    !- Rendering Red Value
+  230,                                    !- Rendering Green Value
+  250;                                    !- Rendering Blue Value
+
+OS:Rendering:Color,
+  {541a9055-f249-4d06-b8ba-6adbe5fbdec5}, !- Handle
+  Rendering Color 66,                     !- Name
+  123,                                    !- Rendering Red Value
+  104,                                    !- Rendering Green Value
+  238;                                    !- Rendering Blue Value
 
