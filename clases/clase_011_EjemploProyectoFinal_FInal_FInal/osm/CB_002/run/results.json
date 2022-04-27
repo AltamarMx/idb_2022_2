@@ -1,0 +1,38 @@
+{
+  "Site Outdoor Air Drybulb Temperature": {
+    "variable_name": "Site Outdoor Air Drybulb Temperature",
+    "reporting_frequency": "Zone Timestep",
+    "key_value": "*",
+    "applicable": true
+  },
+  "Zone Mean Air Temperature": {
+    "variable_name": "Zone Mean Air Temperature",
+    "reporting_frequency": "Zone Timestep",
+    "key_value": "*",
+    "applicable": true
+  },
+  "Site Diffuse Solar Radiation Rate per Area": {
+    "variable_name": "Site Diffuse Solar Radiation Rate per Area",
+    "reporting_frequency": "Zone Timestep",
+    "key_value": "*",
+    "applicable": true
+  },
+  "Site Direct Solar Radiation Rate per Area": {
+    "variable_name": "Site Direct Solar Radiation Rate per Area",
+    "reporting_frequency": "Zone Timestep",
+    "key_value": "*",
+    "applicable": true
+  },
+  "Site Wind Speed": {
+    "variable_name": "Site Wind Speed",
+    "reporting_frequency": "Zone Timestep",
+    "key_value": "*",
+    "applicable": true
+  },
+  "Site Outdoor Air Relative Humidity": {
+    "variable_name": "Site Outdoor Air Relative Humidity",
+    "reporting_frequency": "Zone Timestep",
+    "key_value": "*",
+    "applicable": true
+  }
+}

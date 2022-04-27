@@ -1,0 +1,128 @@
+{
+   "created_at" : "20220420T141841Z",
+   "seed_file" : "../CVentanas_004.osm",
+   "steps" : [
+      {
+         "arguments" : {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Site Outdoor Air Drybulb Temperature"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "add_output_variable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Site Outdoor Air Drybulb Temperature"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "add_output_variable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Zone Mean Air Temperature"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Site Diffuse Solar Radiation Rate per Area"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "add_output_variable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Site Diffuse Solar Radiation Rate per Area"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Site Direct Solar Radiation Rate per Area"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "add_output_variable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Site Direct Solar Radiation Rate per Area"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Site Wind Speed"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "add_output_variable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Site Wind Speed"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Site Outdoor Air Relative Humidity"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "add_output_variable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Site Outdoor Air Relative Humidity"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "Zone Timestep",
+            "variable_name" : "Site Outdoor Air Drybulb Temperature"
+         },
+         "description" : "Exports an OutputVariable specified in the AddOutputVariable OpenStudio measure to a csv file.",
+         "measure_dir_name" : "export_variable_to_csv",
+         "modeler_description" : "This measure searches for the OutputVariable name in the eplusout sql file and saves it to a csv file.",
+         "name" : "Site Outdoor Air Drybulb Temperature"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "Zone Timestep",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "description" : "Exports an OutputVariable specified in the AddOutputVariable OpenStudio measure to a csv file.",
+         "measure_dir_name" : "export_variable_to_csv",
+         "modeler_description" : "This measure searches for the OutputVariable name in the eplusout sql file and saves it to a csv file.",
+         "name" : "Zone Mean Air Temperature"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "Zone Timestep",
+            "variable_name" : "Site Diffuse Solar Radiation Rate per Area"
+         },
+         "description" : "Exports an OutputVariable specified in the AddOutputVariable OpenStudio measure to a csv file.",
+         "measure_dir_name" : "export_variable_to_csv",
+         "modeler_description" : "This measure searches for the OutputVariable name in the eplusout sql file and saves it to a csv file.",
+         "name" : "Site Diffuse Solar Radiation Rate per Area"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "Zone Timestep",
+            "variable_name" : "Site Direct Solar Radiation Rate per Area"
+         },
+         "description" : "Exports an OutputVariable specified in the AddOutputVariable OpenStudio measure to a csv file.",
+         "measure_dir_name" : "export_variable_to_csv",
+         "modeler_description" : "This measure searches for the OutputVariable name in the eplusout sql file and saves it to a csv file.",
+         "name" : "Site Direct Solar Radiation Rate per Area"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "Zone Timestep",
+            "variable_name" : "Site Wind Speed"
+         },
+         "description" : "Exports an OutputVariable specified in the AddOutputVariable OpenStudio measure to a csv file.",
+         "measure_dir_name" : "export_variable_to_csv",
+         "modeler_description" : "This measure searches for the OutputVariable name in the eplusout sql file and saves it to a csv file.",
+         "name" : "Site Wind Speed"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "Zone Timestep",
+            "variable_name" : "Site Outdoor Air Relative Humidity"
+         },
+         "description" : "Exports an OutputVariable specified in the AddOutputVariable OpenStudio measure to a csv file.",
+         "measure_dir_name" : "export_variable_to_csv",
+         "modeler_description" : "This measure searches for the OutputVariable name in the eplusout sql file and saves it to a csv file.",
+         "name" : "Site Outdoor Air Relative Humidity"
+      }
+   ],
+   "updated_at" : "20220427T151018Z",
+   "weather_file" : "MEX_MOR_Cuernavaca-Matamoros.Intl.AP.767260_TMYx.epw"
+}

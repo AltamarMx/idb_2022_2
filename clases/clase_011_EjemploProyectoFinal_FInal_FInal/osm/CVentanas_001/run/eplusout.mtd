@@ -1,0 +1,150 @@
+
+ Meters for 17,PAESTE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PAESTE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PAESTE [J]
+
+ Meters for 78,PAESTE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PAESTE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PAESTE [J]
+
+ Meters for 105,PAOESTE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PAOESTE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PAOESTE [J]
+
+ Meters for 130,PAOESTE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PAOESTE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PAOESTE [J]
+
+ Meters for 145,PBESTE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBESTE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBESTE [J]
+
+ Meters for 170,PBESTE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBESTE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBESTE [J]
+
+ Meters for 185,PBOESTE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBOESTE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PBOESTE [J]
+
+ Meters for 210,PBOESTE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PBOESTE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PBOESTE [J]
+
+ Meters for 225,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 250,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 251,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  PAESTE:Zone Air System Sensible Heating Energy
+  PAESTE:Zone Air System Sensible Cooling Energy
+  PAOESTE:Zone Air System Sensible Heating Energy
+  PAOESTE:Zone Air System Sensible Cooling Energy
+  PBESTE:Zone Air System Sensible Heating Energy
+  PBESTE:Zone Air System Sensible Cooling Energy
+  PBOESTE:Zone Air System Sensible Heating Energy
+  PBOESTE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  PAESTE:Zone Air System Sensible Heating Energy
+  PAESTE:Zone Air System Sensible Cooling Energy
+  PAOESTE:Zone Air System Sensible Heating Energy
+  PAOESTE:Zone Air System Sensible Cooling Energy
+  PBESTE:Zone Air System Sensible Heating Energy
+  PBESTE:Zone Air System Sensible Cooling Energy
+  PBOESTE:Zone Air System Sensible Heating Energy
+  PBOESTE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PAESTE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PAESTE:Zone Air System Sensible Heating Energy
+  PAESTE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  PAESTE:Zone Air System Sensible Heating Energy
+  PAOESTE:Zone Air System Sensible Heating Energy
+  PBESTE:Zone Air System Sensible Heating Energy
+  PBOESTE:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PAESTE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PAESTE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  PAESTE:Zone Air System Sensible Cooling Energy
+  PAOESTE:Zone Air System Sensible Cooling Energy
+  PBESTE:Zone Air System Sensible Cooling Energy
+  PBOESTE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PAESTE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PAESTE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PAOESTE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PAOESTE:Zone Air System Sensible Heating Energy
+  PAOESTE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PAOESTE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PAOESTE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PAOESTE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PAOESTE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBESTE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBESTE:Zone Air System Sensible Heating Energy
+  PBESTE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBESTE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBESTE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBESTE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBESTE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PBOESTE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PBOESTE:Zone Air System Sensible Heating Energy
+  PBOESTE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PBOESTE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PBOESTE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PBOESTE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PBOESTE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
