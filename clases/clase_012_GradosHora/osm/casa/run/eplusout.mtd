@@ -1,0 +1,148 @@
+
+ Meters for 9,Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:Z1 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:Z1 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 82,Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:Z1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:Z1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 120,Z1:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:Z1 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:Z1 [J]
+
+ Meters for 181,Z1:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:Z1 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:Z1 [J]
+
+ Meters for 208,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 245,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 282,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 319,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 344,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 345,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 LIGHTS:Lights Electric Energy
+  Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 LIGHTS:Lights Electric Energy
+  Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:Z1 [J], ResourceType=Electricity, Group=Zone, contents are:
+  Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 LIGHTS:Lights Electric Energy
+  Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:Z1 [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 LIGHTS:Lights Electric Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:Z1 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  Z1 189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 ELECTRIC EQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  Z1:Zone Air System Sensible Heating Energy
+  Z1:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  Z1:Zone Air System Sensible Heating Energy
+  Z1:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:Z1 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  Z1:Zone Air System Sensible Heating Energy
+  Z1:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  Z1:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:Z1 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  Z1:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  Z1:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:Z1 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  Z1:Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
